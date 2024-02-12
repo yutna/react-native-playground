@@ -1,10 +1,10 @@
 import { StatusBar } from "expo-status-bar";
-import { FlatListBasic } from "@/components/flatlist-basic";
+import { SectionListBasic } from "@/components/section-list-basic";
 
 export default function App() {
   return (
     <>
-      <FlatListBasic />
+      <SectionListBasic />
       <StatusBar style="auto" />
     </>
   );
