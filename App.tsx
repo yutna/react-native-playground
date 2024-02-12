@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 
-import { Greetings } from "@/components/greetings";
+import { ScrollViewBasic } from "@/components/scrollview-basic";
 
 const styles = StyleSheet.create({
   container: {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
 export default function App() {
   return (
     <View style={styles.container}>
-      <Greetings />
+      <ScrollViewBasic />
       <StatusBar style="auto" />
     </View>
   );
