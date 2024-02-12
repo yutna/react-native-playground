@@ -1,0 +1,25 @@
+{
+  "name": "react-native-playground",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "android": "expo start --android",
+    "format": "prettier . --write",
+    "ios": "expo start --ios",
+    "start": "expo start",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "50.0.6",
+    "expo-status-bar": "1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.9",
+    "@types/react": "18.2.55",
+    "prettier": "3.2.5",
+    "typescript": "5.3.3"
+  }
+}
